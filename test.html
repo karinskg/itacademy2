@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .nav:nth-child(2):after{
+        content: "|";
+    }
+    .nav:nth-child(2n):before{
+        content: "|";
+    }
+    a:link{
+        text-decoration: none;
+        color:black;
+    }
+    
+    a:visited{
+        color: rgb(44, 19, 233);
+    }
+    .bot{
+        width: 300px;
+        border: 2px solid black; 
+    }
+    .bot_p {
+        justify-content: center;
+       display: flex;
+       border-bottom: 2px solid black;
+    }
+    .cat{
+        width: 100%;
+        height: 100px;
+        margin: 10px;
+        position: relative;
+        border-bottom: 2px solid black;
+        
+    }
+    .cat:last-child{
+        border-bottom: none;
+    }
+    .cat img{
+        width: 80px;
+        height: 70px;
+        position: absolute;
+        top: 12px;
+    }
+    .cat_text{
+        width: 70% ;
+        margin-left: 95px;
+        position: relative;
+    }
+    .cat_text h1{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    .cat_text p {
+        color: #000;
+        position: absolute;
+        top: 11px;
+    }
+</style>
+<body>
+    <a href="https://fe.it-academy.by/" class="nav">Один </a>
+    <a href="https://www.gomel.it-academy.by/" class="nav">Два </a>
+    <a href="https://www.gomel.it-academy.by/" class="nav">Три </a>
+    <a href="https://www.gomel.it-academy.by/" class="nav">Четыре</a>
+
+    <main class="bot">
+        <p class="bot_p">NEWS</p>
+        <div class="cat">
+            <img src="./0e44200116ac3d948bcf9eff5a4de542.jpg" alt="">
+            <div class="cat_text">
+                <h1>Заголовок и дата</h1>
+                <p><a href="#">Lorem ipsum dolor sit amet dfdtfh consectetur eius excepturi.</a></p>
+            </div>
+        </div>
+        <div class="cat">
+            <img src="./0e44200116ac3d948bcf9eff5a4de542.jpg" alt="">
+            <div class="cat_text">
+                <h1>Заголовок и дата</h1>
+                <a href="#">Lorem ipsum dolor sit amet dfdtfh consectetur eius excepturi.</a>
+            </div>
+        </div>
+        <div class="cat">
+            <img src="./0e44200116ac3d948bcf9eff5a4de542.jpg" alt="">
+            <div class="cat_text">
+                <h1>Заголовок и дата</h1>
+                <a href="#">Lorem ipsum dolor sit amet dfdtfh consectetur eius excepturi.</a>
+            </div>
+        </div>
+        <div class="cat">
+            <img src="./0e44200116ac3d948bcf9eff5a4de542.jpg" alt="">
+            <div class="cat_text">
+                <h1>Заголовок и дата</h1>
+                <a href="#">Lorem ipsum dolor sit amet dfdtfh consectetur eius excepturi.</a >
+            </div>
+        </div>
+        <div class="cat">
+            <img src="./0e44200116ac3d948bcf9eff5a4de542.jpg" alt="">
+            <div class="cat_text">
+                <h1>Заголовок и дата</h1>
+                <a href="#">Lorem ipsum dolor sit amet dfdtfh consectetur eius excepturi.</a >
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
